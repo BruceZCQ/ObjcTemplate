@@ -44,4 +44,3 @@ ObjcTemplate => Get Classes Folder
     |-- OOUIImageView.m
     |-- OOUILabel.h
     `-- OOUILabel.m
-    ```
