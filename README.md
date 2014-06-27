@@ -30,6 +30,8 @@ ObjcTemplate => Get Classes Folder
 |-- Utils
 |   |-- AnimationManager.h  #animation
 |   |-- AnimationManager.m 
+|   |-- Settings.h   # app all settings
+|   |-- Settings.m
 |   |-- UIManager.h #UIManger ,manage all ui [vc] create
 |   |-- UIManager.m
 |   |-- Utils.h 
