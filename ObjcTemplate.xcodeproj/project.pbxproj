@@ -31,8 +31,8 @@
 		003DFEE2195D546C00D94D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003DFEE0195D546C00D94D71 /* InfoPlist.strings */; };
 		003DFEE4195D546C00D94D71 /* ObjcTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003DFEE3195D546C00D94D71 /* ObjcTemplateTests.m */; };
 		003DFFDB195D582500D94D71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003DFFDA195D582500D94D71 /* SystemConfiguration.framework */; };
-		7F185C201963D98B00393A5D /* model in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C1F1963D98B00393A5D /* model */; };
-		7F185C221963D99700393A5D /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C211963D99700393A5D /* resource */; };
+		7F185C2C1963E20700393A5D /* model in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C291963E20700393A5D /* model */; };
+		7F185C2D1963E20700393A5D /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C2B1963E20700393A5D /* resource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +94,8 @@
 		003DFEE1195D546C00D94D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		003DFEE3195D546C00D94D71 /* ObjcTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTemplateTests.m; sourceTree = "<group>"; };
 		003DFFDA195D582500D94D71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		7F185C1F1963D98B00393A5D /* model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model; sourceTree = SOURCE_ROOT; };
-		7F185C211963D99700393A5D /* resource */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource; sourceTree = SOURCE_ROOT; };
+		7F185C291963E20700393A5D /* model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model; sourceTree = "<group>"; };
+		7F185C2B1963E20700393A5D /* resource */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +126,11 @@
 		003D000C195D59D700D94D71 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7F185C281963E20700393A5D /* Models */,
+				7F185C2A1963E20700393A5D /* Resources */,
 				003D000D195D59D700D94D71 /* 3rdlibs */,
 				003D0014195D59D700D94D71 /* Categories */,
 				003D0015195D59D700D94D71 /* Configs */,
-				003D001E195D59D700D94D71 /* Models */,
-				003D001F195D59D700D94D71 /* Resources */,
 				003D0020195D59D700D94D71 /* Utils */,
 				003D0027195D59D700D94D71 /* VCs */,
 				003D002C195D59D700D94D71 /* Views */,
@@ -188,22 +188,6 @@
 				003D001D195D59D700D94D71 /* ViewsHeaders.h */,
 			);
 			path = Configs;
-			sourceTree = "<group>";
-		};
-		003D001E195D59D700D94D71 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7F185C1F1963D98B00393A5D /* model */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		003D001F195D59D700D94D71 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7F185C211963D99700393A5D /* resource */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		003D0020195D59D700D94D71 /* Utils */ = {
@@ -315,6 +299,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7F185C281963E20700393A5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F185C291963E20700393A5D /* model */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F185C2A1963E20700393A5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F185C2B1963E20700393A5D /* resource */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,8 +391,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F185C221963D99700393A5D /* resource in Resources */,
-				7F185C201963D98B00393A5D /* model in Resources */,
+				7F185C2D1963E20700393A5D /* resource in Resources */,
+				7F185C2C1963E20700393A5D /* model in Resources */,
 				003DFEC9195D546C00D94D71 /* InfoPlist.strings in Resources */,
 				003DFED1195D546C00D94D71 /* Images.xcassets in Resources */,
 			);
