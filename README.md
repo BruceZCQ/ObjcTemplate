@@ -36,11 +36,13 @@ ObjcTemplate => Get Classes Folder
 |   |-- UIManager.m
 |   |-- Utils.h 
 |   `-- Utils.m
-|-- VCs # Nav and RootViewController with auto rate logic and ios6 ,ios 7 frame fix
+|-- VCs # Nav ,TabBarController and RootViewController with auto rate logic and ios6 ,ios 7 frame fix
 |   |-- NavViewController.h
 |   |-- NavViewController.m
 |   |-- RootViewController.h
-|   `-- RootViewController.m
+|   |-- RootViewController.m
+|   |-- RootTabBarController.h
+|   `-- RootTabBarController.m
 `-- Views
     |-- OOUIImageView.h
     |-- OOUIImageView.m
