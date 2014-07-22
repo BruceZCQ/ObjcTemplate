@@ -33,6 +33,7 @@
 		003DFFDB195D582500D94D71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003DFFDA195D582500D94D71 /* SystemConfiguration.framework */; };
 		7F185C2C1963E20700393A5D /* model in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C291963E20700393A5D /* model */; };
 		7F185C2D1963E20700393A5D /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C2B1963E20700393A5D /* resource */; };
+		7F91528C197E69F000740029 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91528B197E69F000740029 /* RootTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		003DFFDA195D582500D94D71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7F185C291963E20700393A5D /* model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model; sourceTree = "<group>"; };
 		7F185C2B1963E20700393A5D /* resource */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource; sourceTree = "<group>"; };
+		7F91528A197E69F000740029 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		7F91528B197E69F000740029 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,8 @@
 		003D0027195D59D700D94D71 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
+				7F91528A197E69F000740029 /* RootTabBarController.h */,
+				7F91528B197E69F000740029 /* RootTabBarController.m */,
 				003D0028195D59D700D94D71 /* NavViewController.h */,
 				003D0029195D59D700D94D71 /* NavViewController.m */,
 				003D002A195D59D700D94D71 /* RootViewController.h */,
@@ -420,6 +425,7 @@
 				003DFECF195D546C00D94D71 /* OOAppDelegate.m in Sources */,
 				003D0036195D59D700D94D71 /* NavViewController.m in Sources */,
 				003D0033195D59D700D94D71 /* AnimationManager.m in Sources */,
+				7F91528C197E69F000740029 /* RootTabBarController.m in Sources */,
 				003D0031195D59D700D94D71 /* AFNetworkReachabilityManager.m in Sources */,
 				003D0037195D59D700D94D71 /* RootViewController.m in Sources */,
 				003D0038195D59D700D94D71 /* OOUIImageView.m in Sources */,
