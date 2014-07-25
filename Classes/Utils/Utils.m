@@ -9,7 +9,7 @@
 
 @implementation Utils
 
-+ (id)shareUtils
++ (Utils *)shareUtils
 {
     static Utils *utils = nil;
     static dispatch_once_t singleDialogCachepredicate;

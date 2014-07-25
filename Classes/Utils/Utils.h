@@ -9,7 +9,7 @@
 
 @interface Utils : NSObject
 
-+ (id)shareUtils;
++ (Utils *)shareUtils;
 
 //- (void)testing;
 //+ (void)testing2;

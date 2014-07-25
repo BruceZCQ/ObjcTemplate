@@ -9,7 +9,7 @@
 
 @implementation Settings
 
-+ (id)shareSettings
++ (Settings *)shareSettings
 {
     static Settings *settings = nil;
     static dispatch_once_t singleDialogCachepredicate;

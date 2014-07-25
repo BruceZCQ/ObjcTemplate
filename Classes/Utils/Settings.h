@@ -9,6 +9,6 @@
 
 @interface Settings : NSObject
 
-+ (id)shareSettings;
++ (Settings *)shareSettings;
 
 @end
