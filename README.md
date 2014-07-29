@@ -24,7 +24,8 @@ ObjcTemplate => Get Classes Folder
 |   |-- ModelsHeader.h  #import all model
 |   |-- UtilsHeader.h   #import all utils
 |   |-- VCsHeader.h  #import all vcs
-|   `-- ViewsHeaders.h  #import all views
+|   |-- ViewsHeaders.h  #import all views
+|   `-- NotificationsHeader.h #notification
 |-- Models #model folder
 |-- Resources 
 |-- Utils

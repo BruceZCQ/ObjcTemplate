@@ -9,6 +9,7 @@
 #define OpeningO_Headers_h
 
 #import "ConfigsHeader.h"
+#import "NotificationsHeader.h"
 #import "ColorsHeader.h"
 #import "3rdlibsHeader.h"
 #import "ModelsHeader.h"

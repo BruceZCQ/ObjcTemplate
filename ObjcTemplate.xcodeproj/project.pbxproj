@@ -99,6 +99,7 @@
 		7F185C2B1963E20700393A5D /* resource */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource; sourceTree = "<group>"; };
 		7F91528A197E69F000740029 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		7F91528B197E69F000740029 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		7FD3F6B01987A96F00BC0E40 /* NotificationsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +190,7 @@
 				003D001B195D59D700D94D71 /* UtilsHeader.h */,
 				003D001C195D59D700D94D71 /* VCsHeader.h */,
 				003D001D195D59D700D94D71 /* ViewsHeaders.h */,
+				7FD3F6B01987A96F00BC0E40 /* NotificationsHeader.h */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
