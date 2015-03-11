@@ -9,5 +9,11 @@
 #define OpeningO_Categories_h
 
 #import "NSObject+OO.h"
+#import "NSObject+Convert.h"
+#import "UIImage+Color.h"
+#import "UIImage+AssetLaunchImage.h"
+#import "NSString+Utils.h"
+#import "UIButton+Utils.h"
+#import "NSDate+Utils.h"
 
 #endif

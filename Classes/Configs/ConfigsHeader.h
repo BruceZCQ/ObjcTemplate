@@ -14,6 +14,11 @@
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 #define kiOS7System         kSystemVersion >= 7.0
 #define kiOS6System         kSystemVersion < 7.0
+#define kiOS8System         kSystemVersion >= 8.0
+
+#define k4Inch ([UIScreen mainScreen].bounds.size.height == 568.0)
+
+#define kScreenWidth    [UIScreen mainScreen].bounds.size.width
 
 #define OSVersionIsAtLeastiOS7  (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1)
 

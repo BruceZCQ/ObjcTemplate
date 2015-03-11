@@ -10,29 +10,29 @@
 	<string>ObjcTemplate</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2C348D8B-0BA8-4ABA-AE7B-0298AACE02D3</key>
-		<string>ssh://github.com/BruceZCQ/ObjcTemplate.git</string>
+		<key>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</key>
+		<string>github.com:BruceZCQ/ObjcTemplate.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ObjcTemplate.xcodeproj/project.xcworkspace</string>
+	<string>ObjcTemplate.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2C348D8B-0BA8-4ABA-AE7B-0298AACE02D3</key>
+		<key>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/BruceZCQ/ObjcTemplate.git</string>
+	<string>github.com:BruceZCQ/ObjcTemplate.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2C348D8B-0BA8-4ABA-AE7B-0298AACE02D3</string>
+	<string>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2C348D8B-0BA8-4ABA-AE7B-0298AACE02D3</string>
+			<string>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ObjcTemplate</string>
 		</dict>
