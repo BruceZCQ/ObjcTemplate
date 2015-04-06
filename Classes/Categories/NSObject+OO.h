@@ -21,7 +21,7 @@
 - (void)setViewCornerRadius:(CGFloat)cornerRadius;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  设置边框
  *
@@ -31,7 +31,7 @@
 - (void)setBorderColor:(UIColor *)borderColor width:(CGFloat)width;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  设置 layer 的背景颜色
  *

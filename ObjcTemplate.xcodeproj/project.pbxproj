@@ -41,6 +41,8 @@
 		003DFEE2195D546C00D94D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003DFEE0195D546C00D94D71 /* InfoPlist.strings */; };
 		003DFEE4195D546C00D94D71 /* ObjcTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003DFEE3195D546C00D94D71 /* ObjcTemplateTests.m */; };
 		003DFFDB195D582500D94D71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003DFFDA195D582500D94D71 /* SystemConfiguration.framework */; };
+		00DABEFB1AD22FA700CE0A03 /* UINavigationController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DABEF91AD22FA700CE0A03 /* UINavigationController+Ext.m */; };
+		00DABEFE1AD2307900CE0A03 /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DABEFC1AD2307900CE0A03 /* UINavigationBar+Addition.m */; };
 		7F185C2C1963E20700393A5D /* model in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C291963E20700393A5D /* model */; };
 		7F185C2D1963E20700393A5D /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C2B1963E20700393A5D /* resource */; };
 		7F91528C197E69F000740029 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91528B197E69F000740029 /* RootTabBarController.m */; };
@@ -132,6 +134,10 @@
 		003DFEE1195D546C00D94D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		003DFEE3195D546C00D94D71 /* ObjcTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTemplateTests.m; sourceTree = "<group>"; };
 		003DFFDA195D582500D94D71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00DABEF91AD22FA700CE0A03 /* UINavigationController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Ext.m"; sourceTree = "<group>"; };
+		00DABEFA1AD22FA700CE0A03 /* UINavigationController+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Ext.h"; sourceTree = "<group>"; };
+		00DABEFC1AD2307900CE0A03 /* UINavigationBar+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Addition.m"; sourceTree = "<group>"; };
+		00DABEFD1AD2307900CE0A03 /* UINavigationBar+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Addition.h"; sourceTree = "<group>"; };
 		7F185C291963E20700393A5D /* model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model; sourceTree = "<group>"; };
 		7F185C2B1963E20700393A5D /* resource */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource; sourceTree = "<group>"; };
 		7F91528A197E69F000740029 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
@@ -225,6 +231,10 @@
 		003D0014195D59D700D94D71 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				00DABEFD1AD2307900CE0A03 /* UINavigationBar+Addition.h */,
+				00DABEFC1AD2307900CE0A03 /* UINavigationBar+Addition.m */,
+				00DABEFA1AD22FA700CE0A03 /* UINavigationController+Ext.h */,
+				00DABEF91AD22FA700CE0A03 /* UINavigationController+Ext.m */,
 				0017BB1A1AAFE3CC008AAD91 /* NSDate+Utils.h */,
 				0017BB1B1AAFE3CC008AAD91 /* NSDate+Utils.m */,
 				0017BB1C1AAFE3CC008AAD91 /* NSObject+Convert.h */,
@@ -497,6 +507,7 @@
 				003D0041195D614100D94D71 /* Settings.m in Sources */,
 				0017BB3C1AAFE5FD008AAD91 /* NSData+Base64.m in Sources */,
 				003D0032195D59D700D94D71 /* UIViewExt.m in Sources */,
+				00DABEFE1AD2307900CE0A03 /* UINavigationBar+Addition.m in Sources */,
 				0017BB2B1AAFE3CC008AAD91 /* UIImage+Color.m in Sources */,
 				0017BB261AAFE3CC008AAD91 /* NSDate+Utils.m in Sources */,
 				003DFECF195D546C00D94D71 /* OOAppDelegate.m in Sources */,
@@ -504,6 +515,7 @@
 				0017BB271AAFE3CC008AAD91 /* NSObject+Convert.m in Sources */,
 				0017BB281AAFE3CC008AAD91 /* NSString+Utils.m in Sources */,
 				003D0036195D59D700D94D71 /* NavViewController.m in Sources */,
+				00DABEFB1AD22FA700CE0A03 /* UINavigationController+Ext.m in Sources */,
 				0017BB3E1AAFE5FD008AAD91 /* NSString+Base64.m in Sources */,
 				003D0033195D59D700D94D71 /* AnimationManager.m in Sources */,
 				7F91528C197E69F000740029 /* RootTabBarController.m in Sources */,

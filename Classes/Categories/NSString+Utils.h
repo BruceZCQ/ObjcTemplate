@@ -11,7 +11,7 @@
 @interface NSString (Utils)
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  MD5字符串
  *
@@ -21,7 +21,7 @@
 - (NSString *)md5;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  AES 加密
  *
@@ -30,7 +30,7 @@
 - (NSString *)encryptAES;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  AES 解密
  *
@@ -39,7 +39,7 @@
 - (NSString *)decryptAES;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  连接字符串
  *
@@ -50,7 +50,7 @@
 - (NSString *)concat:(NSString *)subString;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  连接字符串times 次
  *
@@ -62,7 +62,7 @@
 - (NSString *)concat:(NSString *)subString times:(NSUInteger)times;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  连接字符串(在前面)
  *
@@ -73,7 +73,7 @@
 - (NSString *)concatBefore:(NSString *)subString;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  判断 NSString 是否为空
  *
@@ -82,7 +82,7 @@
 - (BOOL)isEmpty;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  String 转换为 Long
  *
@@ -91,7 +91,7 @@
 - (NSNumber *)toLongLongNumber;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  转换为无符号 Number
  *
@@ -100,7 +100,7 @@
 - (NSNumber *)toUnsignedIntNumber;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  转换为整型
  *
@@ -110,7 +110,7 @@
 
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  转换为 Float 型
  *
@@ -119,7 +119,7 @@
 - (NSNumber *)toFloatNumber;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  转换为 Double 型
  *
@@ -128,7 +128,7 @@
 - (NSNumber *)toDoubleNumber;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  转换为 NSURL
  *
@@ -137,7 +137,7 @@
 - (NSURL *)toNSURL;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  转换为 NSDate
  *
@@ -146,7 +146,7 @@
 - (NSDate *)toUnix1970Date;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  除去 white space
  *
@@ -155,7 +155,7 @@
 - (NSString *)stringByTrimingWhitespace;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  展开 array[NString]
  *
@@ -166,7 +166,7 @@
 + (NSString *)extendArray:(NSArray *)array;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  当前时间的 unix_time
  *
