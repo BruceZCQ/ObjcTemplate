@@ -16,6 +16,9 @@
 /// 对外版本号
 #define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 
+/// bundle ID
+#define kBundleID   [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
+
 /// delegate
 #define kApp    [UIApplication sharedApplication]
 #define kAppDelegate kApp.delegate
