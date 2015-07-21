@@ -5,4 +5,285 @@
  Copyright (c) 2014 BruceZCQ. All rights reserved.
  */
 
+//星座
+"Capricorn"="摩羯座";
+"Aquarius"="水瓶座";
+"Pisces"="双鱼座";
+"Aries"="白羊座";
+"Taurus"="金牛座";
+"Gemini"="双子座";
+"Cancer"="巨蟹座";
+"Leo"="狮子座";
+"Virgo"="处女座";
+"Libra"="天秤座";
+"Scorpio"="天蝎座";
+"Sagittarius"="射手座";
+"Capricorn"="摩羯座";
+
+// common
+"OK"="确定";
+"Cancel"="取消";
+"Boy"="男";
+"Girl"="女";
+"Close"="关闭";
+"Computer/Web/News"="计算机/互联网/通信";
+"Product/Public/Make"="生产/公业/制造";
+"Biz/Services/Individual"="商业/服务业/个体经营";
+"Financial/invest/Insure"="金融/银行/投资/保险";
+"Culture/AD/Media"="文化/广告/传媒";
+"Amusement/Art/Perform"="娱乐/艺术/表演";
+"Medical/Nurse/Pharmacy"="医疗/护理/制药";
+"Lawyer/LawWorks"="律师/法务";
+"Education/Training"="教育/培训";
+"Servants/Unit"="公务员/事业单位";
+"Student"="学生";
+
+// discover
+"Pull down to refresh"="下拉刷新";
+"Loosen to refresh"="松开马上刷新";
+"Refreshing..."="正在帮你刷新...";
+"Pull up to load more"="上拉加载更多";
+"Loosen to load more"="松开马上加载更多";
+"Loading more..."="正在帮你加载更多...";
+
+"Last refresh: %@"="最后更新: %@";
+"Waiting for agree"="好友请求已发送😊,请等待对方同意";
+"persons"="人";
+"Nearby Wifi Quns"="附近最酷的WIFI聊天群";
+"QunUsers"="群成员";
+"QunDissolved"="此群已解散,请查看其它群";
+"Site"="地址";
+"Mute"="不再提示群消息";
+"No values were received, please check to see the jurisdiction of Meet (privacy Settings-location-based-services)"="亲,俺没有接收到任何数据,请您查看是否在 “设置-隐私-定位服务” 中开启了Meet的访问权限。";
+//chat
+"Thanks for your feedback"="感谢您的反馈!";
+"Not in the same wifi set , please add friend or join in the group"="亲,你们不在同一个WiFi群,不能再继续聊天.你可以连上WiFi加入群组或加为好友.";
+
+//message
+"[Picture]"="[图片]";
+"Voice"="[语音]";
+"Commit to complaint center and TA will be shielded at the same time"="将该用户发送的消息作为附件,提交到投诉中心,供投诉中心调查,您将同时屏蔽该用户";
+"Complaint success! Meet has shieded it's message"="您成功投诉该用户,Meet会尽快处理,并已屏蔽Ta的消息";
+"Commit to complaint center"="将该用户发送的消息作为附件,提交到投诉中心";
+"Temporary chat,Please add friends"="亲,你们属于临时回话哦,如果你们聊的很投缘的话,请添加好友,否则断开当前WiFi,你们就不能继续会话了";
+"Message"=" 消息";
+"'s"="的";
+"WiFi"="WiFi";
+"HotSpot"="热点";
+"Chat Group"="聊天群";
+//message
+"my"="我的";
+"QunInfo"="群资料";
+"Enter group"="进入群";
+"Refreshing"="正在获取...";
+"Delivered"="已发送";
+"Not Delivered"="发送失败";
+"Send Again"="重新发送";
+"Send Request"="发送请求";
+
+// new friend req
+"New Friends"="新朋友";
+"FriendReq"=" 好友请求";
+"Accept"="接受";
+"Accepted"="已添加";
+
+// profile
+"UpdateWallImage"="更换背景墙";
+"Album"="相册";
+"Takephoto"="拍照";
+"Detail"="详细资料";
+"Me"="我";
+"EditProfile"="修改资料";
+"Add Friend"="加好友";
+"Send Message"="发送消息";
+"Meet(TA)"="Meet(TA)";
+"Block"="屏蔽";
+"Complaint"="投诉";
+"SignUp"="注册";
+"Enter Meet ID/Mobile"="请输入Meet号/手机号";
+"Name\\MeetID\\Phone"="名称\\Meet号\\手机号";
+"Enter password"="请输入密码";
+"Forget?"="忘记密码?";
+"Enter the mobile registered"="输入账号绑定的手机号";
+"Next"="下一步";
+"Enter verification code"="请输入验证码";
+"Verification Code Sent to "="您的验证码已发送至 ";
+"Finished"="完成";
+"Resend"="重发";
+"Enter mobile"="请输入手机号";
+"Enter your name"="请输入名字";
+"Choose your birthday"="请选择您的生日";
+"Enter referrer's MeetID"="请输入推荐人Meet号(选填)";
+"Register to agreed"="注册即同意";
+"Upload Avatar"="晒晒你的靓照";
+"Boy"="男";
+"Girl"="女";
+"Home"="家乡";
+"Sign"="个性签名";
+"Hobby"="爱好";
+"Position"="职业";
+"ModifyBirthday"="  修改生日";
+"PersonalAvatar"="个人头像";
+"View"="查看大图";
+"Update"="修改资料";
+"Save"="保存";
+"Discharge?"="放弃对资料的修改?";
+"Continue"="继续编辑";
+"Discharge"="放弃";
+"Age"="年龄";
+"Constellation"="星座";
+"MeetID"="Meet号";
+//profile
+
+//屏蔽,弹框提示
+"Block Success"="屏蔽用户成功";
+"Block Failure"="屏蔽用户失败";
+"To Block This Person"="您确定要屏蔽此人?";
+"You can receive nothing,After blocking"="屏蔽以后,您将接收不到任何消息";
+"Harassment Information"="骚扰信息";
+"Porn Related"="色情相关";
+"Improper Information"="资料不当";
+"Theft Other's Data"="盗用他人资料";
+"Garbage ADs"="垃圾广告";
+"Complaint And Block"="投诉并屏蔽";
+"Complaint success!"="您成功投诉该用户,Meet会尽快处理";
+"Avatar Altered Succeed"="头像上传成功";
+"Back Wall Altered Succeed"="背景墙上传成功";
+"Altered Failure"="上传失败";
+"Altered Failure ,Try Again Later"="修改失败,请稍后再试";
+"Personal Data Altered Success"="修改个人信息成功";
+"Name"="名字";
+"Delete/Replace"="点击删除或替换";
+"Delete Photos"="删除照片";
+"Add/Delete Photos"="添加或删除生活照";
+"Add Life Photos"="添加生活照";
+"Delete"="删除";
+"Replace"="替换";
+"Are you sure?"="您确定要删除照片吗?";
+"Your own signature ( At most 60 words )..."="赶快编写您专属的个性签名吧... ( 最多60个字 )";
+"Siganature can be 60 worlds at most"="个性签名最多只能60个字";
+"Meet,find wonderful"="Meet,发现身边的精彩";
+"What are you donging? (At most 20 words )"="你在做些什么,对什么感兴趣? ( 最多20个字 )";
+"FillPosition"="填写职位";
+"FillHometown"="填写家乡";
+"Where are you come from?"="你来自哪里?";
+"PositionBelongs"="所属行业";
+"what's your position?"="你在公司职位是什么呢?";
+//修改名字
+"Name can't be nil"="名字不能为空";
+"At most 100 words,Input again"="亲,最多只能100字,请重新输入";
+"Name can be 10 worlds only"="亲,名字最多只能10个字哦";
+"Signature can be 60 worlds only"="亲,个性签名最多只能60个字哦";
+"Hobby can be 20 worlds only"="亲,爱好最多只能20个字哦";
+//setting
+"User Protocol"="用户协议";
+"Password Altered Success"="密码修改成功";
+"Password Altered Failure"="密码修改失败";
+"Exit already,Please change another mobilephone number"="手机号已存在,请更换手机号";
+"Register already,ReEnter"="手机号已经注册,请重新输入";
+"Account not exit"="账号不存在,请重新输入";
+"Exit,login"="手机号已经存在,请直接登陆";
+"Number format error"="手机号码格式不对";
+"Can't be nil"="手机号不能为空";
+"Moblie Number Altered Failure"="修改手机号失败";
+"ReEnter"="手机格式有误,请重新输入";
+"Error or expiration"="验证码输入不正确或已过期";
+"Confirm"="请确认密码";
+"Setting"="设置";
+"Change Password"="修改密码";
+"Rebinding Phone Number"="重新绑定手机号";
+"Feedback"="意见反馈";
+"Protocol"="用户协议";
+"Setting"="设置";
+"Logout"="注销";
+"Send"="发送";
+"OfficialSite"="官方网站:";
+"OriginalPassword"="验证原密码";
+"Please verify the original password"="为了保障您的账户安全,修改密码前,请先验证原密码";
+"Submit feedback succeed"="提交反馈成功,感谢您的支持!";
+"Thank you for your support"="感谢您对Meet的支持,欢迎您反馈任何意见和问题,我们会尽快处理,敬请留意...";
+"Retrieve"="重新获取验证码";
+"%d To Retrieve"="%d秒后重新发送";
+"VerificationCode"="请输入短信验证码";
+"Get VerificationCode"="点击获取验证码";
+"Mobilephone Number"="请输入您的手机号";
+"Rebinding MobilePhone( 2/2 )"="重新绑定手机号( 2/2 )";
+"Rebinding MobilePhone( 1/2 )"="重新绑定手机号( 1/2 )";
+//意见反馈
+"Feedback can't be nill"="反馈内容不能为空";
+"Error,try again later..."="遇到了一点小问题,请稍后再试";
+//friends
+"TA is not  in your friends"="亲,TA不在你的好友列表里哦";
+
+"No values please setting"="亲,俺没有接收到任何数据";
+"Login Failure ,No Getting Accesstoken"="登录不成功 没有获取accesstoken";
+"Login cancelled"="用户取消登录";
+"Login Error"="登录失败";
+"Search"="搜索";
+"SureToDelete?"="您确定要删除好友?";
+"Friend Delete Failure"="删除好友失败";
+"Friend Delete Success"="删除好友成功";
+"MeetID\\Phone"="Meet号\\手机号";
+"Dear,TA is not in your Meet World..."="亲,TA不存在Meet的世界里...";
+"Enter your date of birth, Meet will automatically calculate the constellations, and only You can see the birthday, TA is invisible"="输入你的出生日期,Meet会自动算出星座,并且生日只有本人才能看见,TA是看不到的";
+"Sure to delete?"="删除以后,TA就跟您是陌生人了,确定让TA离开您的生活吗?";
+"ToMicroFriends"="分享到微信好友";
+"ToQQFriends"="分享到QQ好友";
+"AddMicroFriend"="添加微信好友";
+"Friend"="微信好友";
+"Moments"="微信朋友圈";
+"Invite QQ Friends"="邀请QQ好友";
+"Sure to invite QQ friends"="您确定邀请QQ好友吗?";
+"Add Friends"="添加好友";
+// login & register
+"Your meet logined on %@ in other device,If this is not your operation,Your login password may have been leaked,Please change your password"="你Meet账号于%@在其他设备上登录.如果这不是你的操作,你的登录密码可能已经泄露.请及时修改你的密码.";
+"Invalid meetId or mobilePhone"="请输入正确的Meet号或手机号";
+"Mismatching secret"="输入的密码不一致,请重新输入";
+"Invalid meet number"="请输入正确的Meet号";
+"Sex can't be nill"="性别这个真的不能为空";
+"Birthday can't be nill"="生日不能为空哦";
+"Input name"="名字是要填的,赶快想个名字吧";
+"Passwrods can be 6-12 words"="密码长度只能在6-12位字符之间";
+"Input secret"="请输入密码,没有它是不行的";
+"Input auth code"="请输入收到的短信验证码";
+"Input again"="手机号格式有误,请重新输入";
+"Input mobilePhone number"="请输入手机号码";
+"Login"="登录";
+"LoginName Invalid"="账号为手机号/Meet号";
+"Loginname cannot be empty!"="登录账号不能为空😳!";
+"Password cannot be empty!"="密码不能为空😳!";
+"SignUp"="注册";
+"Enter Meet ID/Mobile"="请输入Meet号/手机号";
+"Enter password"="请输入密码";
+"Forget?"="忘记密码?";
+"Enter the mobile registered"="输入账号绑定的手机号";
+"Next"="下一步";
+"Enter verification code"="请输入验证码";
+"Verification Code Sent to "="您的验证码已发送至 ";
+"Finished"="完成";
+"Resend"="重发";
+"Enter mobile"="请输入手机号";
+"Enter your name ( At most 10 words )"="请输入名字 ( 最多10个字 )";
+"Choose your birthday"="请选择您的生日";
+"Birthday"="生日";
+"Age must 12 years older!"="性别选择之后不允许修改,请慎重选择!需年满12岁!";
+"Enter referrer's MeetID"="请输入推荐人Meet号(选填)";
+"《Meet User Privacy》"="《Meet用户协议》";
+"Upload Avatar"="晒晒你的靓照";
+
+//share
+"Invite to join meet"="邀请加入Meet";
+"My meet number is %@, Let's play together !"="我在Meet,我的Meet号:%@,这里有趣又温暖,一起加入吧!";
+"Success"="成功";
+"Failure"="失败";
+"Tips"="友情提示";
+"No supporting"="不支持该应用";
+"Please Load"="请下载并安装微信";
+
+"App not register"="App未注册";
+"Params error"="发送参数错误";
+"Mobile QQ not installed"="未安装手Q";
+"Mobile QQ not installed"="未安装手Q";
+"API not support"="API接口不支持";
+"Sending error"="发送失败";
 

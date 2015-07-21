@@ -44,8 +44,9 @@
 		00DABEFE1AD2307900CE0A03 /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DABEFC1AD2307900CE0A03 /* UINavigationBar+Addition.m */; };
 		7F185C2C1963E20700393A5D /* model in Resources */ = {isa = PBXBuildFile; fileRef = 7F185C291963E20700393A5D /* model */; };
 		7F91528C197E69F000740029 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91528B197E69F000740029 /* RootTabBarController.m */; };
-		8FA5C7271B5DF2E900C00E11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FA5C71F1B5DF2E900C00E11 /* InfoPlist.strings */; };
-		8FA5C7281B5DF2E900C00E11 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FA5C7211B5DF2E900C00E11 /* Localizable.strings */; };
+		8F0CBD281B5DF3FD0041BC88 /* AFNetworking.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F0CBD1F1B5DF3FD0041BC88 /* AFNetworking.strings */; };
+		8F0CBD291B5DF3FD0041BC88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F0CBD211B5DF3FD0041BC88 /* InfoPlist.strings */; };
+		8F0CBD2A1B5DF3FD0041BC88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F0CBD231B5DF3FD0041BC88 /* Localizable.strings */; };
 		8FEEC51F1B5DED3A00427999 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEEC51E1B5DED3A00427999 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -142,10 +143,12 @@
 		7F91528A197E69F000740029 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		7F91528B197E69F000740029 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 		7FD3F6B01987A96F00BC0E40 /* NotificationsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsHeader.h; sourceTree = "<group>"; };
-		8FA5C7201B5DF2E900C00E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8FA5C7221B5DF2E900C00E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8FA5C7241B5DF2E900C00E11 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		8FA5C7251B5DF2E900C00E11 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8F0CBD201B5DF3FD0041BC88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AFNetworking.strings; sourceTree = "<group>"; };
+		8F0CBD221B5DF3FD0041BC88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F0CBD241B5DF3FD0041BC88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F0CBD251B5DF3FD0041BC88 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AFNetworking.strings"; sourceTree = "<group>"; };
+		8F0CBD261B5DF3FD0041BC88 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8F0CBD271B5DF3FD0041BC88 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		8FEEC51E1B5DED3A00427999 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -366,7 +369,7 @@
 		003DFEC5195D546C00D94D71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8FA5C71C1B5DF2E900C00E11 /* internationalization */,
+				8F0CBD1E1B5DF3FD0041BC88 /* internationalization */,
 				003DFEC6195D546C00D94D71 /* ObjcTemplate-Info.plist */,
 				003DFECA195D546C00D94D71 /* main.m */,
 				003DFECC195D546C00D94D71 /* ObjcTemplate-Prefix.pch */,
@@ -400,14 +403,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8FA5C71C1B5DF2E900C00E11 /* internationalization */ = {
+		8F0CBD1E1B5DF3FD0041BC88 /* internationalization */ = {
 			isa = PBXGroup;
 			children = (
-				8FA5C71F1B5DF2E900C00E11 /* InfoPlist.strings */,
-				8FA5C7211B5DF2E900C00E11 /* Localizable.strings */,
+				8F0CBD1F1B5DF3FD0041BC88 /* AFNetworking.strings */,
+				8F0CBD211B5DF3FD0041BC88 /* InfoPlist.strings */,
+				8F0CBD231B5DF3FD0041BC88 /* Localizable.strings */,
 			);
-			name = internationalization;
-			path = ../../../yfss_ios/ImFans/ImFans/internationalization;
+			path = internationalization;
 			sourceTree = "<group>";
 		};
 		8FEEC51D1B5DED3A00427999 /* Resources */ = {
@@ -497,10 +500,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F185C2C1963E20700393A5D /* model in Resources */,
-				8FA5C7271B5DF2E900C00E11 /* InfoPlist.strings in Resources */,
+				8F0CBD2A1B5DF3FD0041BC88 /* Localizable.strings in Resources */,
 				8FEEC51F1B5DED3A00427999 /* Default-568h@2x.png in Resources */,
-				8FA5C7281B5DF2E900C00E11 /* Localizable.strings in Resources */,
 				003DFED1195D546C00D94D71 /* Images.xcassets in Resources */,
+				8F0CBD281B5DF3FD0041BC88 /* AFNetworking.strings in Resources */,
+				8F0CBD291B5DF3FD0041BC88 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,20 +579,29 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8FA5C71F1B5DF2E900C00E11 /* InfoPlist.strings */ = {
+		8F0CBD1F1B5DF3FD0041BC88 /* AFNetworking.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8FA5C7201B5DF2E900C00E11 /* en */,
-				8FA5C7241B5DF2E900C00E11 /* zh-Hans */,
+				8F0CBD201B5DF3FD0041BC88 /* en */,
+				8F0CBD251B5DF3FD0041BC88 /* zh-Hans */,
+			);
+			name = AFNetworking.strings;
+			sourceTree = "<group>";
+		};
+		8F0CBD211B5DF3FD0041BC88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0CBD221B5DF3FD0041BC88 /* en */,
+				8F0CBD261B5DF3FD0041BC88 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8FA5C7211B5DF2E900C00E11 /* Localizable.strings */ = {
+		8F0CBD231B5DF3FD0041BC88 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8FA5C7221B5DF2E900C00E11 /* en */,
-				8FA5C7251B5DF2E900C00E11 /* zh-Hans */,
+				8F0CBD241B5DF3FD0041BC88 /* en */,
+				8F0CBD271B5DF3FD0041BC88 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
