@@ -9,6 +9,5 @@
 #define OpeningO_3rdlibsHeader_h
 
 #import "UIViewExt.h"
-#import "AFNetworkReachabilityManager.h"
 
 #endif

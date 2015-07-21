@@ -231,18 +231,6 @@
         [child removeFromSuperview];
     }
 }
-- (UIImage *) imageByRenderingView:(CGRect)f
-{
-    CGFloat scale = [[UIScreen mainScreen] scale];
-    
-    if (NULL != UIGraphicsBeginImageContextWithOptions)
-        UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, scale);
-    else
-        UIGraphicsBeginImageContext(self.bounds.size);
-	[self.layer renderInContext:UIGraphicsGetCurrentContext()];
-	return  UIGraphicsGetImageFromCurrentImageContext();
-    
-}
 
 - (UIView *)clearViewForTableViewFooter
 {
