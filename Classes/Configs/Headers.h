@@ -10,6 +10,7 @@
 
 #import "ConfigsHeader.h"
 #import "NotificationsHeader.h"
+#import "ParamsHeader.h"
 #import "ColorsHeader.h"
 #import "3rdlibsHeader.h"
 #import "ModelsHeader.h"

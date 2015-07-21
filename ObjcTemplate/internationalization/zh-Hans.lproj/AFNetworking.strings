@@ -1,0 +1,10 @@
+/* 
+  AFNetworking.strings
+  Meet
+
+  Created by BruceZCQ on 10/27/14.
+  Copyright (c) 2014 BruceZCQ. All rights reserved.
+*/
+"Reachable via WiFi"="您已经连上 WiFi";
+"Not Reachable"="当前网络不可用";
+"Reachable via WWAN"="您已经连上移动蜂窝网";
