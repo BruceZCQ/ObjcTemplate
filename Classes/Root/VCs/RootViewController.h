@@ -10,28 +10,28 @@
 @interface RootViewController : UIViewController
 
 /**
- *  @author BruceZCQ(zhucongqi@91paiyipai.com), 15-03-23 11:03:56
+ *  @author BruceZCQ, 15-03-23 11:03:56
  *
  *  @brief  是否允许编辑从 imagepicker 获取的图片
  */
 @property (nonatomic, assign) BOOL allowEditPickedImage;
 
 /**
- *  @author BruceZCQ(zhucongqi@91paiyipai.com), 15-03-23 11:03:58
+ *  @author BruceZCQ, 15-03-23 11:03:58
  *
  *  @brief  加入 navs
  */
 - (void)loadNavs;
 
 /**
- *  @author BruceZCQ(zhucongqi@91paiyipai.com), 15-03-23 11:03:03
+ *  @author BruceZCQ, 15-03-23 11:03:03
  *
  *  @brief  setup views
  */
 - (void)setupViews;
 
 /**
- *  @author BruceZCQ(zhucongqi@91paiyipai.com), 15-03-23 11:03:09
+ *  @author BruceZCQ, 15-03-23 11:03:09
  *
  *  @brief  修改 nav 的 hidden 状态
  *
@@ -40,14 +40,14 @@
 - (void)updateNavigationBarHiddenState:(BOOL)state;
 
 /**
- *  @author BruceZCQ(zhucongqi@91paiyipai.com), 15-03-23 11:03:24
+ *  @author BruceZCQ, 15-03-23 11:03:24
  *
  *  @brief  销毁
  */
 - (void)deallocVc;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  camera picke image
  *
@@ -56,7 +56,7 @@
 - (void)pickerImageFromCameraWithTag:(NSInteger)tag;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  album pick image
  *
@@ -65,7 +65,7 @@
 - (void)pickerImageFromAlbumWithTag:(NSInteger)tag;
 
 /**
- *  @author BruceZCQ (brucezcq@gmail.com, zhucongqi@4jty.com)
+ *  @author BruceZCQ (brucezcq@gmail.com)
  *
  *  @brief  picked image
  *
@@ -75,12 +75,12 @@
 - (void)pickEditedImage:(UIImage *)image tag:(NSInteger)tag;
 
 /**
- *  @author BruceZCQ(zhucongqi@91paiyipai.com), 15-03-23 11:03:57
+ *  @author BruceZCQ, 15-03-23 11:03:57
  *
  *  @brief  picked origin image
  *
  *  @param image  原始图片
- *  @param tag   
+ *  @param tag
  */
 - (void)pickOriginedImage:(UIImage *)image tag:(NSInteger)tag;
 

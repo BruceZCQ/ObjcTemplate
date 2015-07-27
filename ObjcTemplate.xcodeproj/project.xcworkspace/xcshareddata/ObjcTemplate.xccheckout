@@ -22,7 +22,7 @@
 		<key>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</key>
 		<string>../..</string>
 		<key>C5F97D3316948284829CC5A430DC4337D77685DF</key>
-		<string>../../../../yfss_ios/ImFans</string>
+		<string>../../../yfss_ios/ImFans</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:BruceZCQ/ObjcTemplate.git</string>
