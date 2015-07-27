@@ -1,5 +1,5 @@
 //
-//  OOAppDelegate.h
+//  AppDelegate.h
 //  ObjcTemplate
 //
 //  Created by BrureZCQ on 6/27/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OOAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -21,7 +21,7 @@
 
 /// delegate
 #define kApp    [UIApplication sharedApplication]
-#define kAppDelegate kApp.delegate
+#define kAppDelegate (AppDelegate *)kApp.delegate
 
 /// 网络是否可用
 #define kNetworkIsReached      [AFNetworkReachabilityManager sharedManager].reachable

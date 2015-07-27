@@ -10,7 +10,7 @@
 #import <dlfcn.h>
 #import <sys/types.h>
 
-#import "OOAppDelegate.h"
+#import "AppDelegate.h"
 
 typedef int (*ptrace_ptr_t)(int _request, pid_t _pid, caddr_t _addr, int _data);
 #if !defined(PT_DENY_ATTACH)
@@ -30,6 +30,6 @@ int main(int argc, char *argv[])
     disable_gdb();
 #endif
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([OOAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
