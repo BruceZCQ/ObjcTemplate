@@ -6,7 +6,7 @@ Copy the "Classes" Folder into your project, import the "Headers.h" file to the 
 
 Old-Xcode-Version
 
-```
+```objc
 #import <Availability.h>
 
 #ifndef __IPHONE_3_0
@@ -32,7 +32,7 @@ Old-Xcode-Version
 
 New-Xcode-Version
 
-```
+```objc
 #import <Foundation/Foundation.h>
 #import "Headers.h"
 //debug mode
@@ -48,7 +48,7 @@ New-Xcode-Version
 
 ObjcTemplate 's Classes Folder Structure
 
-```
+```objc
 .
 ├── 3rdlibsHeader #3rd libs import
 │   ├── AES
