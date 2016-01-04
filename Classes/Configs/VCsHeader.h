@@ -10,6 +10,6 @@
 
 #import "NavViewController.h"
 #import "RootViewController.h"
-#import "OOAppDelegate.h"
+#import "AppDelegate.h"
 
 #endif

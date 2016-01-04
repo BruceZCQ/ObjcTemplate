@@ -14,6 +14,8 @@
 		<string>github.com:BruceZCQ/ObjcTemplate.git</string>
 		<key>C5F97D3316948284829CC5A430DC4337D77685DF</key>
 		<string>ikaihuo.com:imfans_ios.git</string>
+		<key>F11AB48C8885AAADC099E7FB530A65DF36CBFACF</key>
+		<string>ikaihuo.com:imfans_ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ObjcTemplate.xcodeproj</string>
@@ -22,6 +24,8 @@
 		<key>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</key>
 		<string>../..</string>
 		<key>C5F97D3316948284829CC5A430DC4337D77685DF</key>
+		<string>../../../yfss_ios/ImFans</string>
+		<key>F11AB48C8885AAADC099E7FB530A65DF36CBFACF</key>
 		<string>../../../yfss_ios/ImFans</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -32,6 +36,14 @@
 	<string>AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F11AB48C8885AAADC099E7FB530A65DF36CBFACF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImFans</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

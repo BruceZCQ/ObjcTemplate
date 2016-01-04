@@ -1,3 +1,23 @@
+ckup files from text editors
+*~
+*.DS_Store
+.*.swp
+.hg
+.hgignore
+.svn
+.svnignore
+
+# Xcode crap
+*mode1v3
+*pbxuser
+*perspectivev3
+*xcuserdata*
+# Junk files on Mac OS X
+*.DS_Store
+
+#build
+#include
+docs
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -5,4 +25,3 @@
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control?
 #
 # Pods/
-

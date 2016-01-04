@@ -15,4 +15,26 @@
     #import <Foundation/Foundation.h>
 #endif
 
+//debug mode
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#import "DebugConfigHeader.h"
+//release mode
+#else
+#define NSLog(...) {}
+#import "ReleaseConfigHeader.h"
+#endif
 #import "Headers.h"
+
+// New-Xcode-Version
+//#import <Foundation/Foundation.h>
+//#import "Headers.h"
+////debug mode
+//#ifndef __OPTIMIZE__
+//#define NSLog(...) NSLog(__VA_ARGS__)
+//#import "AppConfigHeader.h"
+////release mode
+//#else
+//#define NSLog(...) {}
+//#import "AppConfigHeader.h"
+//#endif

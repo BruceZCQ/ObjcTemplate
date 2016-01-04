@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "OOUILabel.h"
+#import "OOUIImageView.h"
 
 @implementation AppDelegate
 

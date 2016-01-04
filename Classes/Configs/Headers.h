@@ -13,10 +13,8 @@
 #import "ParamsHeader.h"
 #import "ColorsHeader.h"
 #import "3rdlibsHeader.h"
-#import "ModelsHeader.h"
 #import "UtilsHeader.h"
 #import "Categories.h"
-#import "ViewsHeaders.h"
 #import "VCsHeader.h"
 #import "UIManager.h"
 

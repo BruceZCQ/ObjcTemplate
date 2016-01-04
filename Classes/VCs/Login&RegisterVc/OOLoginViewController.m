@@ -1,28 +1,22 @@
 //
-//  TestViewController.m
-//  ImFans
+//  OOLoginViewController.m
+//  ObjcTemplate
 //
-//  Created by congqizhu on 7/21/15.
-//  Copyright (c) 2015 YFSS. All rights reserved.
+//  Created by congqizhu on 1/4/16.
+//  Copyright (c) 2016 OpeningO,Inc ( http://openingo.github.io/ http://zhucongqi.cn/ ). All rights reserved.
 //
 
-#import "TestViewController.h"
+#import "OOLoginViewController.h"
 
-@interface TestViewController ()<ISFSEvents>
+@interface OOLoginViewController ()
 
 @end
 
-@implementation TestViewController
+@implementation OOLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    OOUIImageView *img = [[OOUIImageView alloc] initWithFrame:frame(100, 100, 100, 100)];
-    img.backgroundColor = [UIColor redColor];
-    [self.view addSubview:img];
-    
-    SmartFox2XClient *client = [[SmartFox2XClient alloc] initSmartFoxWithDebugMode:YES delegate:self];
-    NSLog(@"client %@",client);
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
