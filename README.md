@@ -18,6 +18,7 @@ Old-Xcode-Version
     #import <Foundation/Foundation.h>
 #endif
 
+#import "Headers.h"
 //debug mode
 #ifndef __OPTIMIZE__
 #define NSLog(...) NSLog(__VA_ARGS__)
@@ -27,7 +28,6 @@ Old-Xcode-Version
 #define NSLog(...) {}
 #import "ReleaseConfigHeader.h"
 #endif
-#import "Headers.h"
 ```
 
 New-Xcode-Version
@@ -38,11 +38,11 @@ New-Xcode-Version
 //debug mode
 #ifndef __OPTIMIZE__
 #define NSLog(...) NSLog(__VA_ARGS__)
-#import "AppConfigHeader.h"
+#import "DebugConfigHeader.h"
 //release mode
 #else
 #define NSLog(...) {}
-#import "AppConfigHeader.h"
+#import "ReleaseConfigHeader.h"
 #endif
 ```
 
