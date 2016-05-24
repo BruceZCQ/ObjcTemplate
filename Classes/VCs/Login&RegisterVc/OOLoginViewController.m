@@ -7,6 +7,9 @@
 //
 
 #import "OOLoginViewController.h"
+#import "OOUILabel.h"
+#import "OOUIImageView.h"
+#import "OOMainViewController.h"
 
 @interface OOLoginViewController ()
 
@@ -16,8 +19,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor redColor];
+    UIButton *bb = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:bb];
+    
+    bb.frame = CGRectMake(10, 30, 100, 100);
+    
+    bb.backgroundColor = [UIColor blueColor];
+    
+    [bb addTarget:self action:@selector(onAction) forControlEvents:UIControlEventTouchUpInside];
 }
+
+- (void)onAction
+{
+    OOMainViewController *b = [OOMainViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:b];
+    [self presentViewController:nav animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

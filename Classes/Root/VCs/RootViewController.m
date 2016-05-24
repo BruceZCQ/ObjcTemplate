@@ -61,6 +61,12 @@
     self.navigationItem.backBarButtonItem = barItem;
 }
 
+// return YES, can back, NO ignore back action
+- (BOOL)navigationShouldPopOnBackButton
+{
+    return YES;
+}
+
 - (void)dealloc
 {
     [self deallocVc];

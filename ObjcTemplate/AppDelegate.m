@@ -10,22 +10,16 @@
 #import "OOUILabel.h"
 #import "OOUIImageView.h"
 
+#import "OOLoginViewController.h"
+#import "OOMainViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    RootViewController *root = [[RootViewController alloc] init];
-    root.view.backgroundColor = [UIColor redColor];
-    OOUILabel *label = [[OOUILabel alloc] init];
-    label.frame = CGRectMake(10, 100, 300, 100);
-    label.text = @"My bg Color is Clear";
-    OOUIImageView *imageView = [[OOUIImageView alloc] init];
-    imageView.frame = CGRectMake(10, 200, 100, 100);
-    imageView.backgroundColor = [UIColor greenColor];
-    [root.view addSubview:label];
-    [root.view addSubview:imageView];
+    OOLoginViewController *root = [[OOLoginViewController alloc] init];
     
     self.window.rootViewController = root;
     

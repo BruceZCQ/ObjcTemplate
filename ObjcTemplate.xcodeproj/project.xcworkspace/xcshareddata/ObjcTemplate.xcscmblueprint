@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6" : 0,
+    "C5F97D3316948284829CC5A430DC4337D77685DF" : 0,
+    "F11AB48C8885AAADC099E7FB530A65DF36CBFACF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DE36FBD-F1C2-4B8B-B9CD-8A8B8B351058",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6" : "ObjcTemplate",
+    "C5F97D3316948284829CC5A430DC4337D77685DF" : "yfss_ios\/ImFans",
+    "F11AB48C8885AAADC099E7FB530A65DF36CBFACF" : "yfss_ios\/ImFans"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ObjcTemplate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ObjcTemplate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BruceZCQ\/ObjcTemplate.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD7808127E2C767BD8B1C22A4ED31FEA230EBAE6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ikaihuo.com:imfans_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5F97D3316948284829CC5A430DC4337D77685DF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ikaihuo.com:imfans_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F11AB48C8885AAADC099E7FB530A65DF36CBFACF"
+    }
+  ]
+}

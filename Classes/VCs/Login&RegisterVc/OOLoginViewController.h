@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OOLoginViewController : UIViewController
+#import "RootViewController.h"
+@interface OOLoginViewController : RootViewController
 
 @end

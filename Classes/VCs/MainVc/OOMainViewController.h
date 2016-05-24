@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface OOMainViewController : UIViewController
+@interface OOMainViewController : RootViewController
 
 @end
