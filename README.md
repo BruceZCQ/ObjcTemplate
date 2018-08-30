@@ -1,7 +1,7 @@
-ObjcTemplate
+iOS Project Template
 ============
 
-#####HOW TO USE?
+##### HOW TO USE?
 Copy the "Classes" Folder into your project, import the "Headers.h" file to the .pch(old xcode auto genreated, new xcode manual create it) file.
 
 Old-Xcode-Version
@@ -46,7 +46,7 @@ New-Xcode-Version
 #endif
 ```
 
-ObjcTemplate 's Classes Folder Structure
+iOS Project Template 's Classes Folder Structure
 
 ```objc
 .
